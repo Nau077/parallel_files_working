@@ -34,6 +34,4 @@ func main() {
 		}(i)
 	}
 	wg.Wait()
-
-	// fmt.Println(files)
 }

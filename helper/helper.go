@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-var Folder = "./test_files"
+var Folder = "../test_files"
 
 func Timer(name string) func() {
 	start := time.Now()

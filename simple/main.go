@@ -22,6 +22,4 @@ func main() {
 		}
 		files = append(files, v)
 	}
-
-	// fmt.Println(files)
 }
