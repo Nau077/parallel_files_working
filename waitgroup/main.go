@@ -15,7 +15,7 @@ func main() {
 	workers, _ := os.ReadDir(folder)
 	length := len(workers)
 	files := make([][]byte, 0, length)
-	ch := make(chan int, length)
+	ch := make(chan int, length/2)
 	var wg sync.WaitGroup
 	wg.Add(length)
 
